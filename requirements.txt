@@ -1,5 +1,3 @@
 pyTelegramBotAPI
-Pillow
-arabic-reshaper
-python-bidi
+playwright==1.49.0
 tzdata
