@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: voucher-bot
+    runtime: docker
+    plan: free
+    envVars:
+      - key: BOT_TOKEN
+        sync: false
+      - key: ALLOWED_USER_IDS
+        sync: false
