@@ -1,0 +1,30 @@
+[
+  {
+    "id": "kabul-1",
+    "province": "کابل",
+    "keyword": "کابل",
+    "fullAddress": "کابل - سرای شهزاده منزل دوم دکان A161 صرافی شیراحمد",
+    "isDefault": true
+  },
+  {
+    "id": "kandahar-1",
+    "province": "کندهار",
+    "keyword": "کندهار",
+    "fullAddress": "کندهار - تجارتی مارکت منزل اول دکان 29 صرافی رفیع عزیزی",
+    "isDefault": false
+  },
+  {
+    "id": "herat-1",
+    "province": "هرات",
+    "keyword": "هرات",
+    "fullAddress": "هرات - صرافی مارکت خراسان منزل همکف دکان 12 صرافی پیمان",
+    "isDefault": false
+  },
+  {
+    "id": "mazar-1",
+    "province": "مزار شریف",
+    "keyword": "مزار",
+    "fullAddress": "مزار شریف - سرای کفایت طبقه اول دکان 45 صرافی آریا",
+    "isDefault": false
+  }
+]

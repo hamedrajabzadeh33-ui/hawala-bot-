@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: telegram-voucher-bot-python
+    env: python
+    plan: free
+    region: frankfurt
+    buildCommand: pip install -r requirements.txt && curl -fsSL -o BTitrBold.ttf https://raw.githubusercontent.com/Manazd/random_moshavere/master/BTitrBold.ttf && curl -fsSL -o Vazir-Bold.ttf https://cdn.jsdelivr.net/gh/rastikerdar/vazir-font@v27.2.2/dist/Vazir-Bold.ttf
+    startCommand: python bot.py
+    envVars:
+      - key: BOT_TOKEN
+        sync: false
+      - key: PORT
+        value: 3000
+      - key: PYTHON_VERSION
+        value: 3.11.9
